@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://30piraten.github.io/r3/'
 
 # language
 languageCode = 'en-us'
@@ -79,7 +79,7 @@ ignoreErrors = ["error-remote-getjson",
 	# site default theme
 	defaultTheme = "auto"
 	gitRepo = "https://github.com/30Piraten/r3"
-	fingerprint = ["sha256"]
+	fingerprint = "sha256"
 	dateFormat = "2006-01-02"
 	# website title
 	title = "r.3.e"
