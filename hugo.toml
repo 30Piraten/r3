@@ -201,9 +201,9 @@ ignoreErrors = ["error-remote-getjson",
 			Reddit = true
 			HackerNews = true
 		[params.page.comment]
-			enable = true
+			enable = false
 			[params.page.comment.disqus]
-				enable = true 
+				enable = false 
 				shortname = "r3"
 		[params.page.seo]
 			images = []
