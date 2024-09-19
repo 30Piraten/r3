@@ -1,0 +1,238 @@
+baseURL = 'https://30piraten.github.io/r3/'
+
+# language
+languageCode = 'en-us'
+languageName = "English"
+hasCJKLanguage = false
+
+# blog's theme
+theme = "LoveIt"
+
+# blog title
+title = "reality"
+
+# default amount of posts in each pages
+paginate = 5
+googleAnalytics = ""
+copyright = "2020-2024 r3"
+
+# robots.txt
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+# ignore some build errors
+ignoreErrors = ["error-remote-getjson",
+"error-missing-instagram-accesstoken"]
+
+# Author's details
+[author]
+	name = "Victor Raeva"
+	email = "victorraeva@gmail.com"
+	link = "https://linkedin.com/in/evictor3/"
+
+# Menu configuration
+[menu]
+	[[menu.main]]
+		weight = 1
+		identifier = "posts"
+		name = "Posts"
+		pre = ""
+		post = ""
+		url = "/posts/"
+		title = "posts"
+	[[menu.main]]
+		weight = 2
+		identifier = "tags"
+		pre = ""
+		post = ""
+		name = "Tags"
+		url = "/tags/"
+		title = "tags"
+	[[menu.main]]
+		weight = 3
+		identifier = "about"
+		pre = ""
+		post = ""
+		name = "About"
+		url = "/about/"
+		title = "about"
+	[[menu.main]]
+		weight = 4
+		identifier = "poems"
+		pre = ""
+		post = ""
+		name = "Poems"
+		url = "/poems/"
+		title = "about"
+	[[menu.main]]
+		weight = 5
+		identifier = "projects"
+		pre = ""
+		post = ""
+		name = "projects"
+		url = "/projects/"
+		title = "about"
+		
+		
+[params]
+	# site default theme
+	defaultTheme = "auto"
+	gitRepo = "https://github.com/30Piraten/r3"
+	fingerprint = ["sha256"]
+	dateFormat = "2006-01-02"
+	# website title
+	title = "r.3.e"
+	keywords = ["blog", "hugo", "kubernetes", "terraform", "golang",
+	"technology"]
+	description = "Design is a blank page with strings"
+	favicon = "me.png"
+	images = ["me.png"]
+
+	# header config
+	[params.header]
+		desktopMode = "fixed"
+		mobileMode = "auto"
+		[params.header.title]
+			logo = ""
+			name = "reality"
+			typeit = false
+	[params.footer]
+		enable = true
+		hugo = true
+		copyright = true
+		author = true
+		since = 2024
+		license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+	
+	[params.section]
+		paginate = 5
+		dateFormat = "01-02"
+		rss = 10
+	
+	[params.list]
+		paginate = 5
+		dateFormat = "01-02"
+		rss = 10
+	
+	[params.app]
+		noFavicon = false
+		svgFavicon = ""
+		title = "Design is a blank page with strings."
+		themeColor = "#ffffff"
+		iconColor = "#5bbad5"
+		appleTouchIconColor = "#5bbad5"
+		titleColor = "#da532c"
+
+	[params.search]
+		enable = true 
+		type = "lunr"
+		contentLength = 4000
+		placeholder = "Find something interesting..."
+		maxResultLength = 10
+		snippetLength = 30
+		highlightTag = "em"
+		absoluteURL = true
+		[params.search.algolia]
+			index = ""
+			appID = ""
+			searchKey = ""
+
+	[params.home]
+		rss = 10
+		[params.home.profile]
+			enable = true
+			gravatarEmail = "kioyarautenberg@gmail.com"
+			avatarURL = "https://gravatar.com/kioyarautenberg"
+			social = true
+			subtitle = "Design is a blank page with strings."
+		[params.home.posts]
+			enable = true
+			paginate = 6
+			defaultHiddenFromHomePage = false
+
+	[params.social]
+		GitHub = "30Piraten"
+		Linkedin = "evictor3"
+		Twitter = "evictor3"
+		#Mastodon = "@r3_@mastodon.social"
+		medium = "@3ev"
+		Email = "victorraeva@gmail.com"
+		RSS = true
+	
+	[params.page]
+		hiddenFromHomePage = false
+		hiddenFromSearch = false
+		twemoji = true
+		lightgallery = true 
+		ruby = true
+		fraction = true
+		fontawesome = true
+		linkToMarkdown = true
+		rssFullText = false
+		[params.page.toc]
+			enable = true 
+			auto = true 
+			keepStatic = true
+		[params.page.math]
+			enable = true
+			inlineLeftDelimiter = ""
+			inlineRightDelimiter = ""
+			blockLeftDelimiter = ""
+			blockRightDelimiter = ""
+			copyTex = true 
+			mhchem = true
+		[params.page.code]
+			copy = true
+			maxShownLines = 50
+		[params.page.mapbox]
+			accesstoken = ""
+			lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+			darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+			navigation = true
+			geolocate = true
+			scale = true
+			fullscreen = true 
+		[params.page.share]
+			enable = true 
+			Twitter = true 
+			Facebook = true
+			Linkedin = true 
+			Reddit = true
+			HackerNews = true
+		[params.page.comment]
+			enable = true
+			[params.page.comment.disqus]
+				enable = true 
+				shortname = "r3"
+		[params.page.seo]
+			images = []
+			[params.page.seo.publisher]
+				name = "r3"
+				logoUrl = "https://gravatar.com/kioyarautenberg"
+	
+	[params.typeit]
+		speed = 100
+		cursorSpeed = 1000
+		cursorChar = "|"
+		duration = -1
+
+	[params.seo]
+		image = ""
+		thumbnailUrl = "https://gravatar.com/kioyarautenberg"
+	
+	[params.analytics]
+		enable = true 
+
+
+			
+
+
+
+
+
+
+# Markup related configuration in Hugo
+[markup]
+	[markup.highlight]
+		noClasses = false
