@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - reality</title>
+        <link>https://30piraten.github.io/r3/posts/</link>
+        <description>All Posts | reality</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>victorraeva@gmail.com (Victor Raeva)</managingEditor>
+            <webMaster>victorraeva@gmail.com (Victor Raeva)</webMaster><copyright>2020-2024 r3</copyright><lastBuildDate>Mon, 16 Sep 2024 18:04:17 &#43;0200</lastBuildDate><atom:link href="https://30piraten.github.io/r3/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Design Is a Blank Page With Strings</title>
+    <link>https://30piraten.github.io/r3/posts/design-is-a-blank-page-with-strings/</link>
+    <pubDate>Mon, 16 Sep 2024 18:04:17 &#43;0200</pubDate>
+    <author>Victor Raeva</author>
+    <guid>https://30piraten.github.io/r3/posts/design-is-a-blank-page-with-strings/</guid>
+    <description><![CDATA[Our decisions define the outcome of what we become. In most cases, it is as difficult as teaching rap music to a Vietnamese from the South or as complex as handling reconciliation logic in a Kubernetes controller – of course, ensuring that the desired state of the resources matches the actual state in a highly dynamic and distributed environment.
+This same view relates to the world of technology. Small, attainable decisions beget grounded domain knowledge, and this knowledge ushers us into the futuristic reality we desire.]]></description>
+</item>
+</channel>
+</rss>
