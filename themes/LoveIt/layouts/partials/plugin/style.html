@@ -22,7 +22,11 @@
             {{- $resource = $resource | minify -}}
         {{- end -}}
         {{- with .Fingerprint -}}
-            {{- $resource = $resource | fingerprint . -}}
+            {{- if eq (typeOf .) "string" -}}
+                {{- $resource = $resource | fingerprint . -}}
+            {{- else if eq (typeOf .) "[]interface {}" -}}
+                {{- $resource = $resource | fingerprint (index . 0) -}}
+            {{- end -}}
             {{- $integrity = $resource.Data.Integrity -}}
         {{- end -}}
         {{- $href = $resource.RelPermalink -}}
