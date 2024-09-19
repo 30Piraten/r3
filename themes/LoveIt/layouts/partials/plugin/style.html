@@ -22,12 +22,10 @@
             {{- $resource = $resource | minify -}}
         {{- end -}}
         {{- with .Fingerprint -}}
-            {{- if eq (typeOf .) "string" -}}
+            {{- if (not (eq . "")) -}}  <!-- Check if .Fingerprint is defined and not empty -->
                 {{- $resource = $resource | fingerprint . -}}
-            {{- else if eq (typeOf .) "[]interface {}" -}}
-                {{- $resource = $resource | fingerprint (index . 0) -}}
+                {{- $integrity = $resource.Data.Integrity -}}
             {{- end -}}
-            {{- $integrity = $resource.Data.Integrity -}}
         {{- end -}}
         {{- $href = $resource.RelPermalink -}}
     {{- end -}}
