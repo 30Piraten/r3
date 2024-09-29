@@ -1,10 +1,7 @@
-My interests are Kubernetes (APIs, controllers, and operators), IaC (with Terraform, mostly complex infrastructures), 
-and distributed systems. For cloud services, I mostly focus on GKE and LoadBalancing. 
+My main interests in Kubernetes are in APIs, Controllers, and Operators. For Infrastructure as Code (IaC), I work extensively with Terraform for provisioning infrastructures and distributed systems). I also have a strong affinity for networking, especially Load Balancing for GCP and Kubernetes, whether at Layer 4 or Layer 7 or with external resources.
 
-Golang & Rust are cool dialects to work with! I focus mostly on Concurrency with Golang. Trying to conquer the ecosystem is
-a nigh-impregnable task. The same goes for the tools above.
+I find Go and Rust to be beautiful languages. For Go, I focus on concurrency, as building low-level API services or distributed systems heavily relies on the benchmark of concurrency.
 
-I watch a ton of Anime & write Poetry. 
-Learning German and Italiano (I can't speak mine). Both are beautiful languages.
+Apart from working with technology, I write poetry and try not to bite my tongue when speaking and learning German.
 
-This is it, I can't find a way to make this colorful. Well, you can do anything, but you can't do everything!
+In my free time, I watch a lot of anime, ranging from films like Spirited Away and Princess Mononoke to series like Ippo and Demon Slayer.
